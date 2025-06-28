@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GUESS THE NUMBER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="head">
+        <h1>GUESS THE <span>NUMBER</span></h1>
+    </div>
+
+    <div class="main">
+        <span>
+            <p>Try and guess lucky number betweeen 1 to 100</p>
+        </span>
+        <span>
+            <p>
+                you have <span id="ten">10</span> attempts to guess the right number.
+            </p>
+        </span>
+        <form action="" class="form" id="myform">
+            <span>
+                <h3>Guess a number</h3>
+            </span>
+            <input type="text" name="" id="input" placeholder="number">
+            <input type="submit" id="submit" value="submit guess">
+            <div class="mypara">
+                <P>Previous Guess: <span id="display1"></span></P>
+                <P>Remaining Guess: <span id="display2">10</span></P>
+                <p id="display3"></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  height: 10vh;
+  width: 100vw;
+  background-color: #1f1f1f;
+  color: #f8f9fa;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.head span{
+    color: #ff6b6b;
+}
+
+body {
+  background-color: #121212;
+  color: #dcdcdc;
+}
+
+.main {
+  display: block;
+  width: 100vw;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+#ten{
+  color: rgb(0, 183, 255);
+}
+
+form {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form h3 {
+  text-decoration: underline;
+}
+
+.main form:nth-child(3) {
+  font-size: 20px;
+}
+
+input[type="text"] {
+  height: 42px;
+  width: 290px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 15px;
+   border: 1px solid #444;
+  background-color: #222;
+  color: #eee;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+input[type="text"]:focus {
+  border-color: #00ffcc;
+  outline: none;
+}
+
+
+input[type="submit"] {
+  height: 40px;
+  width: 115px;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-left: 2px;
+  background-color: #1f1f1f;
+  color: #f8f9fa;
+  border: 1px solid #555;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #333;
+  color: #00ffcc;
+  text-shadow:
+    0 0 5px #00ffccaa,
+    0 0 10px #00ffccbb,
+    0 0 20px #00ffccdd;
+  box-shadow: 0 0 10px #00ffcc88;
+  transform: scale(1.05);
+  outline: none;
+}
+
+input[type="submit"]:active {
+  animation: pressEffect 0.2s ease forwards;
+}
+
+@keyframes pressEffect {
+  0% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.mypara{
+    margin-top: 15px;
+}
