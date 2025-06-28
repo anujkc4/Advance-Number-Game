@@ -1,2 +1,1 @@
-# Advance-Number-Game
-This is a game about finding random number
+This is number finding similer to pervious one with clear code and more specific;
